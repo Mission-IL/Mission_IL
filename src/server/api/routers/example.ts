@@ -16,7 +16,7 @@ export const exampleRouter = createTRPCRouter({
         reporterPhone: z.string(),
       }),
     )
-    .query(({ input }: any) => {
+    .query(({ input }) => {
       const {
         location,
         name,
